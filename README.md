@@ -1,23 +1,58 @@
-# team-project
-
-# Issue Management System
-
-## Introduction 
-this project is come from program eng 01 team21.
-엽준성 20213541
-양호신(20195#98)
+# Issue Manager
+#양호신(20195#98)
+엽준성(2021541)
 허호(20225#58)
 
+Issue Manager is an issue tracking and management system built with Spring Boot. This project provides functionalities to manage issues, projects, comments, and users.
+
 ## Features
-- **User Management**: Register, login, and manage user profiles.
-- **Issue Tracking**: Create, update, and track issues with detailed status reports.
-- **Comments**: Add comments to issues to facilitate discussion among team members.
-- **Role-Based Access**: Different access levels for admins, project managers, developers, and testers.
-- **Statistics**: Visualize issue statistics to monitor project health and team productivity.
+
+- User authentication and registration
+- Issue management (create, update, delete, search)
+- Project management (create, update, delete)
+- Comment management (create, update, delete)
+- User management (create, update, delete)
+- Statistics and reports
+
+## Technologies Used
+
+- Java 11
+- Spring Boot 2.6.2
+- Spring Security
+- Spring Data JPA
+- MySQL
+- Lombok
+- JUnit 5
+- Mockito
+
+## Prerequisites
+
+- Java 11
+- Maven
+- MySQL
+
+## Getting Started
+
+### Database Setup
+
+1. Create a MySQL database:
+
+    ```sql
+    CREATE DATABASE issue_manager_db;
+    ```
+
+2. Create a MySQL user and grant privileges:
+
+    ```sql
+    CREATE USER 'issue_user'@'localhost' IDENTIFIED BY 'issue_password';
+    GRANT ALL PRIVILEGES ON issue_manager_db.* TO 'issue_user'@'localhost';
+    FLUSH PRIVILEGES;
+    ```
+
+### Clone the Repository
+
+```bash
 
 
-## Installation
-**Clone the repository**:
-   ```bash
    git clone https://github.com/yourusername/issue-management-system.git
    cd issue-management-system

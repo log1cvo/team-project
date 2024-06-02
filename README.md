@@ -54,5 +54,5 @@ Issue Manager is an issue tracking and management system built with Spring Boot.
 ```bash
 
 
-   git clone https://github.com/yourusername/issue-management-system.git
+   git clone https://github.com/log1cvo/team-project01_21.git
    cd issue-management-system

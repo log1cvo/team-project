@@ -1,0 +1,9 @@
+com\example\issuemanagement\ErrorDetails.class
+com\example\issuemanagement\GlobalExceptionHandler.class
+com\example\issuemanagement\config\SecurityConfig.class
+com\example\issuemanagement\model\Issue.class
+com\example\issuemanagement\controller\IssueController.class
+com\example\issuemanagement\service\IssueService.class
+com\example\issuemanagement\IssueManagementApplication.class
+com\example\issuemanagement\repository\IssueRepository.class
+com\example\issuemanagement\ResourceNotFoundException.class

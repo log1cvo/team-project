@@ -1,6 +1,6 @@
 # Issue Manager
-#양호신(20195#98)
-엽준성(2021541)
+#양호신(20195#98)yang ho xin
+엽준성(2021541) log1cvo
 허호(20225#58)
 
 Issue Manager is an issue tracking and management system built with Spring Boot. This project provides functionalities to manage issues, projects, comments, and users.
